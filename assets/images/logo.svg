@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 80" fill="none">
+  <defs>
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCEAB2" />
+      <stop offset="40%" stop-color="#D4AF37" />
+      <stop offset="75%" stop-color="#C59B27" />
+      <stop offset="100%" stop-color="#996F10" />
+    </linearGradient>
+    <filter id="glow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-color="#D4AF37" flood-opacity="0.3" />
+    </filter>
+  </defs>
+  
+  <!-- Emblem Icon on Left -->
+  <g transform="translate(10, 10)">
+    <circle cx="30" cy="30" r="28" fill="#121215" stroke="url(#goldGradient)" stroke-width="1.5" />
+    <circle cx="30" cy="30" r="25" fill="none" stroke="url(#goldGradient)" stroke-width="0.5" stroke-dasharray="2, 2" opacity="0.6" />
+    <path d="M19 20 C19 28 28.5 32 28.5 38 L27.5 45 L32.5 45 L31.5 38 C31.5 32 41 28 41 20 Z" fill="none" stroke="url(#goldGradient)" stroke-width="1.75" stroke-linejoin="round" />
+    <line x1="21" y1="23" x2="39" y2="23" stroke="url(#goldGradient)" stroke-width="1" opacity="0.75" />
+    <circle cx="30" cy="23" r="1.5" fill="url(#goldGradient)" />
+    <path d="M26 31 L34 31" stroke="url(#goldGradient)" stroke-width="0.8" opacity="0.5" />
+  </g>
+
+  <!-- Typography -->
+  <text x="82" y="38" font-family="'Cinzel', 'Playfair Display', Georgia, serif" font-size="22" font-weight="700" letter-spacing="3.5" fill="url(#goldGradient)">VONTREIC RAMONE</text>
+  
+  <!-- Subtitle with side lines -->
+  <line x1="84" y1="52" x2="128" y2="52" stroke="url(#goldGradient)" stroke-width="0.75" opacity="0.5" />
+  <text x="216" y="55" font-family="'Plus Jakarta Sans', 'Montserrat', -apple-system, sans-serif" font-size="9.5" font-weight="600" letter-spacing="6" fill="#E2E8F0" text-anchor="middle">MOBILE BARTENDING</text>
+  <line x1="304" y1="52" x2="348" y2="52" stroke="url(#goldGradient)" stroke-width="0.75" opacity="0.5" />
+</svg>
